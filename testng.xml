@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Ashish.Eerapuram/IdeaProjects/RestAssuredAPITesting/pom.xml">
+        <classes>
+            <class name="demo_post.TC001_DemoCreate"></class>
+            <class name="demo_get.TC001_ReturnAllUsers"></class>
+            <class name="demo_post.TC002_LoginSuccess"></class>
+            <class name="demo_post.TC003_CreateNewRecord"></class>
+            <class name="demo_get.TC004_AllEmployeesData"></class>
+            <class name="demo_get.TC002_ReturnSingleUser"></class>
+            <class name="demo_get.TC003_SingleEmployeeData"></class>
+            <class name="demo_get.TC005_FindPetsByStatus"></class>
+            <class name="demo_get.TC006_FindPetByID"></class>
+        </classes>
+    </test>
+</suite>
